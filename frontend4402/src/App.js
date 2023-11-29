@@ -73,7 +73,7 @@ function App() {
       <div style={example}>
       Example Statements To Try:
       <p>SELECT * FROM customer</p>
-      <p>INSERT INTO customer (customer_id, first_name, last_name, phone_number, customer_license_num)
+      <p>INSERT INTO customer (customer_id, first_name, last_name, phone_num, customer_license_num)
       VALUES ('C1', 'Adriana', 'Garner', 3452071789, 2182781718); </p>
       </div>
 
