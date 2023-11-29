@@ -1,4 +1,4 @@
-# Example 4402 Database Project
+# 4402 Database Project
 
 ## Introduction
 
