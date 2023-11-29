@@ -74,7 +74,7 @@ function App() {
       Example Statements To Try:
       <p>SELECT * FROM customer</p>
       <p>INSERT INTO customer (customer_id, first_name, last_name, phone_num, customer_license_num)
-      VALUES ('C1', 'Adriana', 'Garner', 3452071789, 2182781718); </p>
+      VALUES ('C21', 'Dummy', 'Code', 5041111111, 2111111111); </p>
       </div>
 
     </div>
@@ -103,9 +103,9 @@ const textAreaStyle = {
 };
 
 const example = {
-  width: '40%',       // Set a fixed width
+  width: '53%',       // Set a fixed width
   minHeight: '10%',   // Set a minimum height
-  maxWidth: '50%',
+  maxWidth: '80%',
   padding: '10px',
   resize: 'none',      // Disable resizing
   fontSize: '1rem',
