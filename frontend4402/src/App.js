@@ -71,7 +71,7 @@ function App() {
     </div>
 
       <div style={example}>
-      Example Statements To Try:
+      Example Statement To Try:
       <p>SELECT * FROM customer</p>
       <p>INSERT INTO customer (customer_id, first_name, last_name, phone_num, customer_license_num)
       VALUES ('C21', 'Dummy', 'Code', 5041111111, 2111111111); </p>
