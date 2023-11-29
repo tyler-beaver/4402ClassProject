@@ -11,5 +11,5 @@ INSERT INTO reservation (reservation_id, customer_id, employee_id, vehicle_vin, 
 VALUES (00355, 12629, 16726, 50000, '06/26/2025', '06/26/2026', 544);
 
 INSERT INTO vehicle (vin, license_id, make, model, year, reservation_id)
-VALUES (9832904jjer, 328382, 'Kia', 'Rio', '1992', 66070);
+VALUES (9832904, 328382, 'Kia', 'Rio', '1992', 66070);
 -- ADD INSERT STATEMENTS FOR YOUR RELATIONS HERE
