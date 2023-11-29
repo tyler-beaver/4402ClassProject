@@ -33,7 +33,7 @@ function App() {
 
   return (
     <div style={containerStyle}>
-      <h1>CSC 4402 Example</h1>
+      <h1>CSC 4402 Project</h1>
       <div style={example}>{message}</div>
       <div><p></p></div>
       
@@ -71,10 +71,10 @@ function App() {
     </div>
 
       <div style={example}>
-      example statements to try:
-      <p>SELECT * FROM EMPLOYEE</p>
-      <p>INSERT INTO Employee (FirstName, LastName, Department, Salary)
-VALUES ('Jim', 'Halpert', 'Sales', 45000.00); </p>
+      Example Statements To Try:
+      <p>SELECT * FROM customer</p>
+      <p>INSERT INTO customer (customer_id, first_name, last_name, phone_number, customer_license_num)
+      VALUES ('C1', 'Adriana', 'Garner', 3452071789, 2182781718); </p>
       </div>
 
     </div>
