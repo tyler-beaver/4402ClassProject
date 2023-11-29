@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project provides a starting point for your database project that has both a backend component (built with Spring Boot) and a frontend component (built with React).
+This project has both a backend component (built with Spring Boot) and a frontend component (built with React).
 
 ## Prerequisites
 
