@@ -35,9 +35,10 @@ function App() {
     <div style={containerStyle}>
       <h1>CSC 4402 Project</h1>
       <h2>Car Rental Agency Database</h2>
+      <img src="theImages/mcqueen.jpg" alt="McQueen" width="300" height="200"/>
       <div style={example}>{message}</div>
       <div><p></p></div>
-      
+
       <label>
       SQL Statement:</label>
       <textarea
