@@ -84,8 +84,10 @@ function App() {
       VALUES ('C21', 'Dummy', 'Code', 5041111111, 2111111111); </li>
         <li style={listItemStyle}>DELETE FROM customer
       WHERE customer_id = 'C21';</li>
-        <li style={listItemStyle}>Test</li>
-        <li style={listItemStyle}>Test</li>
+        <li style={listItemStyle}>SELECT * FROM vehicle
+      WHERE reservation_id IS NULL;</li>
+        <li style={listItemStyle}>UPDATE vehicle SET reservation_id = 'R21'
+      WHERE vin = 'A596IFY0L5SMC82H1';</li>
       </ol>
       </div>
 

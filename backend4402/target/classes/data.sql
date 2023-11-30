@@ -92,6 +92,11 @@ VALUES
     ('A04K17013DNBB9NZX', 'OBO914', 'Jeep', 'Compass', 2005, 'R2'),
     ('N6LUP3HM0ENYQ1ZQN', 'NFL3GT', 'Kia', 'Soul', 2013, 'R12'),
     ('X53S647HY6VD2759R', 'ZN8FZI', 'Jeep', 'Wrangler', 1990, 'R15'),
-    ('W9T3A3Q6I1890N2XQ', 'LGF73M', 'Jeep', 'Compass', 1999, 'R13');
+    ('W9T3A3Q6I1890N2XQ', 'LGF73M', 'Jeep', 'Compass', 1999, 'R13'),
+    ('A596IFY0L5SMC82H1', 'LA4198', 'Nissan', 'Altima', 2013, NULL),
+    ('B03040215HW8QR9A', 'R21XK3', 'Volkswagen', 'Golf', 2021, NULL),
+    ('C59LG4HFPQ383139Z', '69JJRT', 'Subaru', 'Outback', 1989, NULL),
+    ('D06478MSZ7WF0182X', 'L2F23F', 'Toyota', 'Tacoma', 1999, NULL),
+    ('E06478MSZ7WF018Y', 'H25G3F', 'Toyota', 'Camry', 2013, NULL);
 
 -- ADD INSERT STATEMENTS FOR YOUR RELATIONS HERE
