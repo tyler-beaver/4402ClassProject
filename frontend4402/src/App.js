@@ -38,8 +38,8 @@ function App() {
       <h1>CSC 4402 Project</h1>
       <h2>Car Rental Agency Database</h2>
       <div style={{ display: 'flex', justifyContent: 'space-between' }}>
-        <img src={McQueen} alt="McQueen" />
-        <img src={Mater} alt="Mater" />
+        <img src={McQueen} alt="McQueen" style={{ width: '400px', height: '300px' }}/>
+        <img src={Mater} alt="Mater" style={{ width: '400px', height: '300px' }}/>
       </div>
       <div style={example}>{message}</div>
       <div><p></p></div>
@@ -82,7 +82,8 @@ function App() {
         <li style={listItemStyle}>SELECT * FROM customer</li>
         <li style={listItemStyle}>INSERT INTO customer (customer_id, first_name, last_name, phone_num, customer_license_num)
       VALUES ('C21', 'Dummy', 'Code', 5041111111, 2111111111); </li>
-        <li style={listItemStyle}>Test</li>
+        <li style={listItemStyle}>DELETE FROM customer
+      WHERE customer_id = 'C21';</li>
         <li style={listItemStyle}>Test</li>
         <li style={listItemStyle}>Test</li>
       </ol>
