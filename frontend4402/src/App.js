@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'; //library to make http requests
 import McQueen from './theImages/Mcqueen.jpg'; 
+import Mater from './theImages/Mater.jpg'; 
 
 function App() {
   const [message, setMessage] = useState('');
@@ -36,7 +37,10 @@ function App() {
     <div style={containerStyle}>
       <h1>CSC 4402 Project</h1>
       <h2>Car Rental Agency Database</h2>
-      <img src={McQueen} alt="McQueen" />
+      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <img src={McQueen} alt="McQueen" />
+        <img src={Mater} alt="Mater" />
+      </div>
       <div style={example}>{message}</div>
       <div><p></p></div>
 
@@ -53,7 +57,7 @@ function App() {
       </button>
 
       <div>
-      <h4>Test Queries:</h4>
+      <h4>SQL Result:</h4>
       {result.map((item, index) => (
         <div key={index}>
           <pre
@@ -73,6 +77,7 @@ function App() {
 
     </div>
       <div style={example}>
+      Test Queries:
       <ol style={testQueriesStyle}>
         <li style={listItemStyle}>SELECT * FROM customer</li>
         <li style={listItemStyle}>INSERT INTO customer (customer_id, first_name, last_name, phone_num, customer_license_num)
