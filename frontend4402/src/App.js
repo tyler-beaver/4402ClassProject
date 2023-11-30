@@ -86,8 +86,16 @@ function App() {
       WHERE customer_id = 'C21';</li>
         <li style={listItemStyle}>SELECT * FROM vehicle
       WHERE reservation_id IS NULL;</li>
-        <li style={listItemStyle}>UPDATE vehicle SET reservation_id = 'R21'
-      WHERE vin = 'A596IFY0L5SMC82H1';</li>
+        <li style={listItemStyle}>BEGIN TRANSACTION;
+      UPDATE vehicle
+      SET reservation_id = 'R21'
+      WHERE vin = 'A596IFY0L5SMC82H1';
+
+      INSERT INTO reservation (reservation_id, customer_id, employee_id, vin, start_date, end_date, cost)
+      VALUES ('R21', 'C21', 'E21', 'A596IFY0L5SMC82H1', '04/26/2024', '05/10/2024', 2100);
+
+      COMMIT;
+        </li>
       </ol>
       </div>
 
