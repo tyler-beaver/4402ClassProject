@@ -2,6 +2,8 @@
 
 ## Introduction
 
+This project is based on a project template created by Sadie Forbes: https://github.com/sadief630/Example4402Project.git 
+
 This project has both a backend component (built with Spring Boot) and a frontend component (built with React).
 
 ## Prerequisites
@@ -20,13 +22,13 @@ Follow these steps to get the project up and running:
 
 ### Backend (Spring Boot)
 
-1. Open the backend4402 folder (aka the Spring Boot project) as a JAVA PROJECT in your preferred Java IDE. I used IntelliJ and heavily recommend it.
+1. Open the backend4402 folder (aka the Spring Boot project) as a JAVA PROJECT in your preferred Java IDE.
 
 2. Build the project using Maven and run the Spring Boot application by running the main class. This will run the backend server on port 8080.
 
 ### Frontend (React)
 
-1. Open a terminal and navigate to the `frontend` directory in our project, or open the frontend4402 folder in Visual Studio Code and open a new terminal. I used Visual Studio Code for all frontend development.
+1. Open a terminal and navigate to the `frontend` directory in our project, or open the frontend4402 folder in Visual Studio Code and open a new terminal. 
 
 2. Install project dependencies by running:
     
