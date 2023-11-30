@@ -86,7 +86,9 @@ function App() {
       WHERE customer_id = 'C21';</li>
         <li style={listItemStyle}>SELECT * FROM vehicle
       WHERE reservation_id IS NULL;</li>
-        <li style={listItemStyle}>BEGIN TRANSACTION;
+        <li style={listItemStyle}>
+      BEGIN TRANSACTION;
+      
       UPDATE vehicle
       SET reservation_id = 'R21'
       WHERE vin = 'A596IFY0L5SMC82H1';
