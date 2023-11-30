@@ -34,6 +34,7 @@ function App() {
   return (
     <div style={containerStyle}>
       <h1>CSC 4402 Project</h1>
+      <h2>Car Rental Agency Database</h2>
       <div style={example}>{message}</div>
       <div><p></p></div>
       
@@ -50,7 +51,7 @@ function App() {
       </button>
 
       <div>
-      <h4>SQL Result:</h4>
+      <h4>Test Queries:</h4>
       {result.map((item, index) => (
         <div key={index}>
           <pre
@@ -69,12 +70,15 @@ function App() {
       ))}
 
     </div>
-
       <div style={example}>
-      Example Statement To Try:
-      <p>SELECT * FROM customer</p>
-      <p>INSERT INTO customer (customer_id, first_name, last_name, phone_num, customer_license_num)
-      VALUES ('C21', 'Dummy', 'Code', 5041111111, 2111111111); </p>
+      <ol style={testQueriesStyle}>
+        <li style={listItemStyle}>SELECT * FROM customer</li>
+        <li style={listItemStyle}>INSERT INTO customer (customer_id, first_name, last_name, phone_num, customer_license_num)
+      VALUES ('C21', 'Dummy', 'Code', 5041111111, 2111111111); </li>
+        <li style={listItemStyle}>Test</li>
+        <li style={listItemStyle}>Test</li>
+        <li style={listItemStyle}>Test</li>
+      </ol>
       </div>
 
     </div>
@@ -92,6 +96,20 @@ const containerStyle = {
   textAlign: 'center',
   marginTop: '50px',
 };
+const testQueriesStyle = {
+  display: 'flex',
+  flexDirection: 'column',
+  alignItems: 'left',
+  fontFamily: 'monospace',
+  fontSize: '1rem',
+  textAlign: 'left',
+  marginTop: '10px',
+  marginBottom: '10px',
+};
+
+const listItemStyle = {
+  marginBottom: '10px',
+};
 
 const textAreaStyle = {
   width: '30%',       // Set a fixed width
@@ -106,7 +124,7 @@ const example = {
   width: '53%',       // Set a fixed width
   minHeight: '10%',   // Set a minimum height
   maxWidth: '80%',
-  padding: '10px',
+  padding: '5px',
   resize: 'none',      // Disable resizing
   fontSize: '1rem',
 };
